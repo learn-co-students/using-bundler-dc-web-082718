@@ -325,7 +325,7 @@ That's it! Now we can access all of our gems from our `run.rb` file.
 You will notice that we use two different require methods while setting up our
 environment and bin files.
 
-While both of these methods might look similiar they do different things. Both
+While both of these methods might look similar they do different things. Both
 load a file based on the filename passed in as a parameter and return true if
 the file was found and loaded successfully and they will raise a LoadError if it
 returns false. However...
